@@ -1,6 +1,5 @@
 package com.example.joelbakken.myrestaurants;
 
-
 import android.content.Context;
 import android.widget.ArrayAdapter;
 
