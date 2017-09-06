@@ -24,7 +24,6 @@ public class RestaurantsActivity extends AppCompatActivity {
             "Lardo", "Portland City Grill", "Fat Head's Brewery",
             "Chipotle", "Subway"};
 
-public static final String TAG = RestaurantsActivity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,13 +38,11 @@ public static final String TAG = RestaurantsActivity.class.getSimpleName();
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String restaurant = ((TextView)view).getText().toString();
                 Toast.makeText(RestaurantsActivity.this, restaurant, Toast.LENGTH_LONG).show();
-                Log.v("TAG", "In the onItemClickListener!");
             }
         });
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
         mLocationTextView.setText("Here are all the restaurants near: " + location);
-        Log.d("TAG","In the onCreate method!");
     }
 }
