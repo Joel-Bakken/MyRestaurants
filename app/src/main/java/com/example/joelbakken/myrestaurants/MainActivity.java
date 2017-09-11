@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/CATHSGBR.TTF");
+        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/ostrichregular.ttf");
         mAppNameTextView.setTypeface(ostrichFont);
 
         mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
