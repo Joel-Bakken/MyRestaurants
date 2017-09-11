@@ -1,4 +1,4 @@
-package com.example.joelbakken.myrestaurants;
+package com.example.joelbakken.myrestaurants.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.joelbakken.myrestaurants.R;
 import com.example.joelbakken.myrestaurants.models.Restaurant;
 import com.example.joelbakken.myrestaurants.services.YelpService;
 
