@@ -11,31 +11,19 @@
         android:layout_height="match_parent"
         android:id="@+id/imageView"
         android:src="@drawable/food"
-        android:scaleType="centerCrop"
-        android:layout_alignBottom="@+id/locationEditText"
-        android:layout_alignParentStart="true" />
+        android:scaleType="centerCrop" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MyRestaurants"
-        android:layout_marginTop="35dp"
-        android:id="@+id/appNameTextView"
-        android:textColor="@color/colorTextIcons"
-        android:textSize="55sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Find Restaurants"
-        android:id="@+id/findRestaurantsButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@color/colorAccent"
-        android:textColor="@color/colorTextIcons" />
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:id="@+id/appNameTextView"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -48,4 +36,13 @@
         android:hint="Enter Zip Code"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Restaurants"
+        android:id="@+id/findRestaurantsButton"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorTextIcons"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

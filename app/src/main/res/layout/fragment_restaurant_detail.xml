@@ -79,7 +79,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="View Online"
+                    android:text="View on Yelp"
                     android:id="@+id/websiteTextView"
                     android:drawableLeft="@drawable/ic_exit_to_app_white_24dp"
                     android:drawablePadding="4dp"
