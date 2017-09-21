@@ -46,7 +46,7 @@ android {
     }
 }
 
-apply plugin: 'com.neenbedankt.android-apt'
+//apply plugin: 'com.neenbedankt.android-apt'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
