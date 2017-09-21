@@ -35,7 +35,7 @@ public class RestaurantListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant);
+        setContentView(R.layout.activity_restaurants);
         ButterKnife.bind(this);
 
         Intent intent = getIntent();
