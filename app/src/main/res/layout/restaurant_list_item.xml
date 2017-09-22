@@ -5,6 +5,7 @@
     android:layout_height="wrap_content">
 
 
+
     <ImageView
         android:layout_width="130dp"
         android:layout_height="100dp"
@@ -47,9 +48,9 @@
                 android:layout_height="wrap_content"
                 android:text="Rating"
                 android:id="@+id/ratingTextView"
+                android:textColor="@color/colorAccent"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:textColor="@color/colorAccent"/>
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

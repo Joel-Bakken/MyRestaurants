@@ -1,6 +1,5 @@
 package com.example.joelbakken.myrestaurants.services;
 
-
 import com.example.joelbakken.myrestaurants.Constants;
 import com.example.joelbakken.myrestaurants.models.Restaurant;
 
@@ -19,7 +18,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 import se.akerfeldt.okhttp.signpost.OkHttpOAuthConsumer;
 import se.akerfeldt.okhttp.signpost.SigningInterceptor;
-
 
 public class YelpService {
 

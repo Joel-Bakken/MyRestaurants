@@ -2,7 +2,7 @@ package com.example.joelbakken.myrestaurants;
 
 
 
-public final class Constants {
+public class Constants {
     public static final String YELP_CONSUMER_KEY = BuildConfig.YELP_CONSUMER_KEY;
     public static final String YELP_CONSUMER_SECRET = BuildConfig.YELP_CONSUMER_SECRET;
     public static final String YELP_TOKEN = BuildConfig.YELP_TOKEN;
@@ -11,5 +11,5 @@ public final class Constants {
     public static final String YELP_LOCATION_QUERY_PARAMETER = "location";
     public static final String PREFERENCES_LOCATION_KEY = "location";
     public static final String FIREBASE_CHILD_SEARCHED_LOCATION = "searchedLocation";
+    public static final String FIREBASE_CHILD_RESTAURANTS = "restaurants";
 }
-
